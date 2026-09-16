@@ -1,6 +1,7 @@
 import {useEffect,useState} from 'react';
 import {ArrowLeft,CheckCircle2,FlaskConical,Package,ShieldCheck} from 'lucide-react';
 import {getStoreProducts,registerCustomer,createTestOrder,StoreProduct} from './lib/storefront';
+import './storefront.css';
 
 const fallback:StoreProduct[]=[
 {id:'preview-001',sku:'AGR-KPI-001',name:'Agricultural Project KPI & Indicator Management Toolkit',family:'MEL Toolkit',description:'A practical system for defining, tracking and reporting agricultural project indicators.',price:29,currency:'USD',version:'1.1',licence_type:'Single organisation'},
